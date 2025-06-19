@@ -656,3 +656,34 @@ th {
 h2 {
     margin-bottom: 20px;
 }
+
+<style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        font-family: Arial, sans-serif;
+    }
+    th, td {
+        border: 1px solid #dddddd;
+        padding: 12px;
+        text-align: left;
+    }
+    th {
+        background: #f4f4f4;
+    }
+    .skill-progress {
+        width: 100%;
+        background: #e0e0e0;
+        border-radius: 5px;
+        overflow: hidden;
+        height: 20px;
+    }
+    .skill-progress-bar {
+        height: 100%;
+        background: #4caf50;
+        transition: width 0.5s ease;
+    }
+    h2 {
+        margin-bottom: 20px;
+    }
+</style>
